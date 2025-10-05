@@ -17,7 +17,7 @@ ARG KTVERSION_FILE="/sbin/ktversion"
 
 RUN echo "#!/usr/bin/env bash" > ${KTVERSION_FILE} && \
     echo -n "echo " >> ${KTVERSION_FILE} && \
-    echo -n "Inkscape-$(inkscape --version | awk '{print $2}')-" >> ${KTVERSION_FILE} && \
+    echo -n "Inkscape-$(inkscape --version | awk '{print $2}')" >> ${KTVERSION_FILE} && \
     chmod +x ${KTVERSION_FILE}
 
 ENTRYPOINT ["/usr/bin/inkscape"]
