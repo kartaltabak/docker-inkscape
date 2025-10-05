@@ -1,7 +1,7 @@
 # docker-inkscape
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/kartaltabak/docker-inkscape)](https://hub.docker.com/r/kartaltabak/docker-inkscape)
-[![Docker Image Size](https://img.shields.io/docker/image-size/kartaltabak/docker-inkscape)](https://hub.docker.com/r/kartaltabak/docker-inkscape)
+[![Docker Pulls](https://img.shields.io/docker/pulls/kartaltabak/docker-inkscape)](https://hub.docker.com/r/kartaltabak/inkscape)
+[![Docker Image Size](https://img.shields.io/docker/image-size/kartaltabak/docker-inkscape)](https://hub.docker.com/r/kartaltabak/inkscape)
 
 🐳 Docker container with Inkscape, tested for Android app icon generation from SVG files
 
